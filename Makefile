@@ -1,7 +1,7 @@
 NAME=AES_Decryption
 CC=g++
 LIBS= -lssl -lcrypto
-MAIN= main.cpp
+MAIN= Decryption_Files/main.cpp
 TEST_MAIN= $(wildcard Tests/*.cpp)
 SRCS= Decryption_Files/Converter.cpp Decryption_Files/AES.cpp
 
